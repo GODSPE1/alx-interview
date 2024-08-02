@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Program that solves the `N` queens problem using a backtracking algorithm to
+"""This module solves the `N` queens problem using a backtracking algorithm to
 place N non-attacking queens on an N x N chessboard"""
 
 import sys
