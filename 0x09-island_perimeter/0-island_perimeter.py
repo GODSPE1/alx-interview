@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 # Iterate through the list:
 def island_perimeter(grid):
+    """
+    This function calculates the perimeter of a grid by
+    taking the calculation of sides
+    Parameter:
+        grid: A 2D matrix that represents the area covered by land an water
+    """
     perimeter = 0
     # Loop through row indices
     for row in range(len(grid)):
